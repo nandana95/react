@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
+.header{
+    display: flex;
+    background-color: rgb(126, 165, 42);
+    text-align: center;
+    color: aliceblue;
+    height: 35px;
+    padding: 50px 0px;
+    font-weight: bolder;
+    margin-bottom: 20px; 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer{
+    background-color: aqua;
+    text-align: center;
+    height: 35px;
+    padding: 50px 0px;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.main{
+    background-color: palevioletred;
+    text-align: center;
+    height: 35px;
+    padding: 50px 0px;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-align: right;
+margin-left: 1000px;
 }
+.headerleft{
+    text-align: left;
+    margin-left: 60px;
+    
+}
+.ph1{
+display: flex;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    
+}
+.ph2{
+    
+    font-size: 40px;
+    position: relative;
+}
+.ab{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    border: none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.cms{
+text-align: end;
+margin-bottom: 40px;
+    padding: 50px;
+    
+
+
+}
+.sd{
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 50px;
+
+    
+
+
+    
+}  
+.cd{
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 50px;
+    
+    
+}
+.clr1{
+    color: aqua;
+}
+.clr2{
+    color: brown;
+}
+.clr3{
+    color: chartreuse;
+}
+.border{
+    border-radius: 50px;
+}
+button{
+    padding: 12px;
+    background-color: bisque;
+    border-radius: 10px;
+    font-weight: bolder;
+
+
 }
